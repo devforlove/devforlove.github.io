@@ -1,20 +1,20 @@
 # Site
-repository: violetbeach/violetbeach.github.io
+repository: devforlove/devforlove.github.io
 
 # Personal info
-name: 이재헌
-title: 카카오페이 서버 개발자
-email: ti6419@gmail.com
-website: https://jaehoney.tistory.com
+name: 정인욱
+title: 더블다운인터액티브 서버 개발자
+email: inwookgusa@gmail.com
+website: https://wooktech.tistory.com
 
 # Additional icon links
 additional_links:
   - title: Tech Blog
     icon: fab fa-blogger
-    url: https://jaehoney.tistory.com
+    url: https://wooktech.tistory.com
 
 # Social links
-github_username: violetbeach
+github_username: devforlove
 
 # About Section
 # about_title: About Me
