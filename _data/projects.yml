@@ -2,7 +2,7 @@
   name: Dash Server
   job_title: 게시판 
   dates: 2022.07 ~ 2023.03
-  link: https://github.com/violetbeach/verby-server
+  link: 
   quote: >
     MSA를 적용한 게시판 서버 (1인 개발)
   description: | # this will include new lines to allow paragraphs
@@ -15,9 +15,8 @@
 
 - layout: left
   name: DDC API Server 
-  job_title: API
+  job_title: API 서버 
   dates: 2022.10 ~ 2024.03
-  link: https://github.com/violetbeach/kis-trading-server
   quote: >
     대량의 사용자 요청을 처리하는 REST API 서버 
   description: | # this will include new lines to allow paragraphs

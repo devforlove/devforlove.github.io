@@ -1,28 +1,8 @@
 - layout: left
   name: 개인 블로그
-  link: https://jaehoney.tistory.com/
+  link: https://wooktech.tistory.com/
   quote: >
     개인 기술 블로그
   description: |
-    * 2020년부터 개발하면서 겪은 고민과 업무에서 만난 문제 등을 기록하고 공유
-    * 매주 2~3회 포스팅을 업로드
-    * 현재 평일 평균 PV 1200 ~ 1500, 누적 PV 43만
-
-- layout: left
-  name: Open Source
-  quote: >
-    오픈 소스 기여 (Contribution Experience)
-  description: | # this will include new lines to allow paragraphs
-    * Spring-Kafka: @Nested 클래스 테스트에서 Test Context가 캐싱되지 않는 문제 해결 ([Github PR](https://github.com/spring-projects/spring-kafka/pull/2694){:target="_blank"} / [Blog](https://jaehoney.tistory.com/347){:target="_blank"})
-    * [Spring-Framework(spring-jdbc): RoutingDataSource, RoutingConnectionFactory의 런타임 중 DataSource 추가를 위해 메서드 분리](https://github.com/spring-projects/spring-framework/pull/31248){:target="_blank"}
-    * Apache-Commons-Email: Byte Array를 저장하는 방식의 메모리 이슈 제기 및 해결 반영 ([PR-157](https://github.com/apache/commons-email/pull/157){:target="_blank"}, [PR-159](https://github.com/apache/commons-email/pull/159){:target="_blank"}), [etc](https://github.com/apache/commons-email/pull/158){:target="_blank"}
-    * [Lucy-XSS-Filter: blockingPrefix 설정 문서 누락 추가](https://github.com/naver/lucy-xss-filter/pull/29){:target="_blank"}
-
-- layout: left
-  name: Gabia Teams 14기
-  quote: >
-    사내에서 참가한 활동 (팀즈)
-  description: | # this will include new lines to allow paragraphs
-    * 사내 Confluence 문서 개편 및 발표
-    * 문서 가독성 개편 및 부족한 개발문서 개선
-    * 신규 개발자 온보딩 문서 작성
+    * 2022년부터 개발하면서 겪은 고민과 업무에서 만난 문제 등을 기록하고 공유
+    * 매주 3~4회 포스팅을 업로드
