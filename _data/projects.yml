@@ -34,8 +34,8 @@
     배치성 작업을 처리하는 서버 
   description: | # this will include new lines to allow paragraphs
     * [QueryDsl을 이용한 ItemReader 조회 성능 최적화](https://wooktech.tistory.com/71){:target="_blank"}
-    * 스프링 배치 배포 서버 구축 
-    * Batch 서버 특성 고려한 Coverage 100%
+    * [스프링 배치 배포 서버 구축](https://wooktech.tistory.com/83){:target="_blank"}
+    * Batch 서버 특성 고려한 테스트 코드 작성
 
 - layout: left
   name: HADA Server 
@@ -44,6 +44,6 @@
     기존 종이로 하던 시설 점검을 QR 기반으로 디지털화 해주는 솔루션
   description: | # this will include new lines to allow paragraphs
     * [SQL 정렬 쿼리 튜닝을 통해 페이징 쿼리 응답 속도 평균 20초에서 3초로 개선  ](https://github.com/violetbeach/blog-code/tree/master/loadtest/mail-api/readme.md){:target="_blank"}
-    * [HikariCP 커넥션 누수 해결](https://jaehoney.tistory.com/337){:target="_blank"}
+    * [HikariCP 커넥션 누수 해결](https://wooktech.tistory.com/45){:target="_blank"}
     * [전반적인 JPA, Querydsl의  성능 개선  (execution: 3.792s to 371ms)](https://jaehoney.tistory.com/333){:target="_blank"}, [Outer Join 문제 해결 (TPS: 10.8 to 107.7)](https://github.com/violetbeach/blog-code/blob/master/loadtest/mail-api/readme.md#4-1-mails){:target="_blank"}
     * Code pipeline을 이용한 배포 자동화를 구축
