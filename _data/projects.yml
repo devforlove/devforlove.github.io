@@ -46,5 +46,5 @@
   description: | # this will include new lines to allow paragraphs
     * [SQL 정렬 쿼리 튜닝을 통해 페이징 쿼리 응답 속도 평균 20초에서 3초로 개선  ](https://github.com/violetbeach/blog-code/tree/master/loadtest/mail-api/readme.md){:target="_blank"}
     * [HikariCP 커넥션 누수 해결](https://wooktech.tistory.com/45){:target="_blank"}
-    * [전반적인 JPA, Querydsl의  성능 개선  (execution: 3.792s to 371ms)](https://jaehoney.tistory.com/333){:target="_blank"}, [Outer Join 문제 해결 (TPS: 10.8 to 107.7)](https://github.com/violetbeach/blog-code/blob/master/loadtest/mail-api/readme.md#4-1-mails){:target="_blank"}
-    * Jenkins 및 Code pipeline을 이용한 배포 자동화를 구축
+    * [전반적인 JPA, Querydsl의  성능 개선  (execution: 3.792s to 371ms)](https://wooktech.tistory.com/12){:target="_blank"}, [Outer Join 문제 해결 (TPS: 10.8 to 107.7)](https://github.com/violetbeach/blog-code/blob/master/loadtest/mail-api/readme.md#4-1-mails){:target="_blank"}
+    * Jenkins 및 Code pipeline을 이용한 배포 자동화 구축
