@@ -10,7 +10,7 @@
     * DDD 적용 
     * CQRS 이벤트 기반 아키텍처 적용 
     * [멀티모듈 배포 프로세스 구축 (CircleCI, CodeDeploy)](https://jaehoney.tistory.com/253){:target="_blank"}
-    * [ArgoCD, 쿠버네티스를 이용한 배포 프로세스 구축](https://jaehoney.tistory.com/311){:target="_blank"}
+    * [ArgoCD, 쿠버네티스를 이용한 배포 프로세스 구축](https://jaehoney.tistory.com/311){:target="_blank", ":color"="blue"}
 
 - layout: left
   name: DDC API Server 
@@ -33,7 +33,7 @@
   quote: >
     배치성 작업을 처리하는 서버 
   description: | # this will include new lines to allow paragraphs
-    * [QueryDsl을 이용한 ItemReader 조회 성능 최적화](https://wooktech.tistory.com/71){:target="_blank"}
+    * [QueryDSL을 이용한 ItemReader 조회 성능 최적화](https://wooktech.tistory.com/71){:target="_blank"}
     * [ItemWriter 쓰기 성능 최적화](https://wooktech.tistory.com/100){:target="_blank"}
     * [Jenkins를 이용한 스프링 배치 실행 환경 구축](https://wooktech.tistory.com/83){:target="_blank"}
     * Batch 서버 특성 고려한 테스트 코드 작성
@@ -46,5 +46,5 @@
   description: | # this will include new lines to allow paragraphs
     * [SQL 정렬 쿼리 튜닝을 통해 페이징 쿼리 응답 속도 평균 20초에서 3초로 개선  ](https://github.com/violetbeach/blog-code/tree/master/loadtest/mail-api/readme.md){:target="_blank"}
     * [HikariCP 커넥션 누수 해결](https://wooktech.tistory.com/45){:target="_blank"}
-    * [전반적인 JPA, Querydsl의  성능 개선  (execution: 3.792s to 371ms)](https://wooktech.tistory.com/12){:target="_blank"}, [Outer Join 문제 해결 (TPS: 10.8 to 107.7)](https://github.com/violetbeach/blog-code/blob/master/loadtest/mail-api/readme.md#4-1-mails){:target="_blank"}
+    * [전반적인 JPA, QueryDSL의  성능 개선  (execution: 3.792s to 371ms)](https://wooktech.tistory.com/12){:target="_blank"}, [Outer Join 문제 해결 (TPS: 10.8 to 107.7)](https://github.com/violetbeach/blog-code/blob/master/loadtest/mail-api/readme.md#4-1-mails){:target="_blank"}
     * Jenkins 및 Code pipeline을 이용한 배포 자동화 구축
