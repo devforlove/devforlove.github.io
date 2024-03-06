@@ -8,7 +8,7 @@
   description: | # this will include new lines to allow paragraphs
     * 헥사고날 아키텍처 적용 
     * DDD 적용 
-    * CQRS 이벤트 기반 아키텍처 적용 
+    * [CQRS 이벤트 기반 아키텍처 적용](https://wooktech.tistory.com/116){:target="_blank"}{:style="color: #337ab7"}
     * [멀티모듈 배포 프로세스 구축 (CircleCI, CodeDeploy)](https://jaehoney.tistory.com/253){:target="_blank"}{:style="color: #337ab7"}
     * [ArgoCD, 쿠버네티스를 이용한 배포 프로세스 구축](https://jaehoney.tistory.com/311){:target="_blank"}{:style="color: #337ab7"}
 
