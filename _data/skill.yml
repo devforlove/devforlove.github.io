@@ -2,16 +2,16 @@
   name: Backend
   description: | # this will include new lines to allow paragraphs
     * Java
-    * Spring Boot
+    * Spring Boot, Spring Batch
     * JPA, Querydsl
-    * Junit5, Mockito, RestAssured
-    * IntelliJ, DataGrip, Vim
+    * Junit5, Mockito
+    * IntelliJ, Vim
     * Gradle
 - layout: left
   name: DevOps
   description: | 
     * MySQL, MariaDB
-    * CircleCI, Gitlab CI, Code Deploy
+    * Jenkins, Code Deploy
     * AWS EC2, RDS (MySQL), ElastiCache, S3, Elastic Load Balancer, Route53
-    * JMeter, nGrinder
+    * nGrinder
     * Docker
