@@ -9,7 +9,7 @@
     * 헥사고날 아키텍처 적용 
     * DDD 적용 
     * [CQRS 이벤트 기반 아키텍처 적용](https://wooktech.tistory.com/116){:target="_blank"}{:style="color: #337ab7"}
-    * [ArgoCD, 쿠버네티스를 이용한 배포 프로세스 구축](https://wooktech.tistory.com/search/argoCD){:target="_blank"}{:style="color: #337ab7"}
+    * [ArgoCD, 쿠버네티스를 이용한 CI/CD 프로세스 구축](https://wooktech.tistory.com/search/argoCD){:target="_blank"}{:style="color: #337ab7"}
 
 - layout: left
   name: DDC API Server 
@@ -19,7 +19,7 @@
     대량의 사용자 요청을 처리하는 REST API 서버 
   description: | # this will include new lines to allow paragraphs
     * [커서방식을 이용한 쿼리 최적화](https://wooktech.tistory.com/117){:target="_blank"}{:style="color: #337ab7"} 
-    * [COUNT 쿼리 수행 속도 개선 (execution: 5.241s to 452ms)](https://wooktech.tistory.com/46){:target="_blank"}{:style="color: #337ab7"}
+    * [COUNT 쿼리 수행 속도 개선 (execution: 3.241s to 452ms)](https://wooktech.tistory.com/46){:target="_blank"}{:style="color: #337ab7"}
     * [테스트 코드 개선 사항 및 안티 패턴 팀에 전파 (Test Coverage 90%)](https://wooktech.tistory.com/96){:target="_blank"}{:style="color: #337ab7"}
     * [Spring Boot 테스트 코드 최적화](https://wooktech.tistory.com/86){:target="_blank"}{:style="color: #337ab7"}
     * [Cache 정합성 이슈 해결](https://wooktech.tistory.com/99){:target="_blank"}{:style="color: #337ab7"}
