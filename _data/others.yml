@@ -9,14 +9,8 @@
 
 - layout: left
   name: CKA 자격증
+  link: https://training.linuxfoundation.org/?SSAID=2575451&sscid=31k8_r0k8i&utm_source=shareasale&utm_medium=affiliate&utm_campaign=affiliate
   quote: >
     쿠버네티스 공인 자격증 
   description: |
-    * 엽무 과정 중에 쿠버네티스에 대한 필요성을 느끼고 CKA 공인 자격증 취득 
-
-- layout: left
-  name: CKA 자격증
-  quote: >
-    쿠버네티스 공인 자격증 
-  description: |
-    * 엽무 과정 중에 쿠버네티스에 대한 필요성을 느끼고 CKA 공인 자격증 취득 
+    * 엽무 과정 중에 쿠버네티스에 대한 필요성을 느껴 CKA 공인 자격증 취득 
