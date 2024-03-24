@@ -35,6 +35,7 @@
     * [QueryDSL을 이용한 ItemReader 조회 성능 최적화](https://wooktech.tistory.com/71){:target="_blank"}{:style="color: #337ab7"}
     * [ItemWriter 쓰기 성능 최적화](https://wooktech.tistory.com/100){:target="_blank"}{:style="color: #337ab7"}
     * [Jenkins를 이용한 스프링 배치 실행 환경 구축](https://wooktech.tistory.com/83){:target="_blank"}{:style="color: #337ab7"}
+    * Batch 어플리케이션 CI/CD 배포 파이프라인 구축 
     * Batch 서버 특성 고려한 테스트 코드 작성
 
 - layout: left
