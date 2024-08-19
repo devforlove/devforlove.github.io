@@ -10,7 +10,7 @@
 - layout: left
   name: DevOps
   description: | 
-    * MySQL, MariaDB
+    * MySQL, MariaDB, Redis, MongoDB
     * Jenkins, Code Deploy
     * AWS EC2, RDS (MySQL), ElastiCache, S3, Elastic Load Balancer, Route53
     * nGrinder
