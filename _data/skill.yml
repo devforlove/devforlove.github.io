@@ -11,6 +11,7 @@
   name: DevOps
   description: | 
     * MySQL, MariaDB, Redis, MongoDB
+    * Kafka
     * Jenkins, Code Deploy
     * AWS EC2, RDS (MySQL), ElastiCache, S3, Elastic Load Balancer, Route53
     * nGrinder

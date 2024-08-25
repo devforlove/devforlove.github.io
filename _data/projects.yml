@@ -18,11 +18,11 @@
   quote: >
     대량의 사용자 요청을 처리하는 REST API 서버 
   description: | # this will include new lines to allow paragraphs
-    * 푸시 시스템에 CQRS 적용해서 하루 500만건 메세지 대응 
+    * 푸시 시스템 MSA 전환 및 CQRS 적용으로 하루 100만건 메세지 대응 
     * 알림 시스템 스토리지를 Redis에서 MongoDB로 전환하여 75% 비용 절감
     * 클린 아키텍처를 이용한 전체 시스템 리펙토링 작업 
-    * [커서방식을 이용한 쿼리 최적화](https://wooktech.tistory.com/117){:target="_blank"}{:style="color: #337ab7"} 
     * [테스트 코드 개선 사항 및 안티 패턴 팀에 전파 (Test Coverage 90%)](https://wooktech.tistory.com/96){:target="_blank"}{:style="color: #337ab7"}
+    * Mysql 인덱스 및 쿼리 튜닝을 통한 다수의 쿼리 성능 최적화 작업
     * [Spring Boot 테스트 코드 최적화](https://wooktech.tistory.com/86){:target="_blank"}{:style="color: #337ab7"}
     * [Cache 정합성 이슈 해결](https://wooktech.tistory.com/99){:target="_blank"}{:style="color: #337ab7"}
 
@@ -38,7 +38,7 @@
     * [ItemWriter 쓰기 성능 최적화](https://wooktech.tistory.com/100){:target="_blank"}{:style="color: #337ab7"}
     * [Jenkins를 이용한 스프링 배치 실행 환경 구축](https://wooktech.tistory.com/83){:target="_blank"}{:style="color: #337ab7"}
     * Batch 어플리케이션 CI/CD 배포 파이프라인 구축 
-    * Batch 테스트 코드 커버리지 (90%)
+    * Batch 테스트 코드 커버리지 (Test Coverage 90%)
 
 - layout: left
   name: HADA Server 
