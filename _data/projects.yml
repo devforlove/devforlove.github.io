@@ -14,7 +14,7 @@
 - layout: left
   name: DDC API Server 
   job_title: API 서버 
-  dates: 2022.10 ~ 2024.09
+  dates: 2022.11 ~ 2024.10
   quote: >
     대량의 사용자 요청을 처리하는 REST API 서버 
   description: | # this will include new lines to allow paragraphs
@@ -30,7 +30,7 @@
 - layout: left
   name: DDC Batch Server
   job_title: 배치 서버 
-  dates: 2022.10 ~ 2024.09
+  dates: 2022.11 ~ 2024.10
   quote: >
     배치성 작업을 처리하는 서버 
   description: | # this will include new lines to allow paragraphs
@@ -43,7 +43,7 @@
 
 - layout: left
   name: HADA Server 
-  dates: 2021.10 ~ 2022.10
+  dates: 2021.11 ~ 2022.11
   quote: >
     기존 종이로 하던 시설 점검을 QR 기반으로 디지털화 해주는 솔루션
   description: | # this will include new lines to allow paragraphs
