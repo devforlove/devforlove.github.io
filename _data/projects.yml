@@ -21,6 +21,7 @@
     * 푸시 시스템 MSA 전환 및 CQRS 적용으로 하루 30만건 메세지 대응 
     * 알림 시스템 스토리지를 Redis에서 MongoDB로 전환하여 75% 비용 절감
     * 클린 아키텍처를 이용한 전체 시스템 리펙토링 작업 
+    * MDC와 Interceptor를 이용한 JPA SQL 진입점 정보 추가 
     * [테스트 코드 개선 사항 및 안티 패턴 팀에 전파 (Test Coverage 90%)](https://wooktech.tistory.com/96){:target="_blank"}{:style="color: #337ab7"}
     * Mysql 인덱스 및 쿼리 튜닝을 통한 다수의 쿼리 성능 최적화 작업
     * [Spring Boot 테스트 코드 최적화](https://wooktech.tistory.com/86){:target="_blank"}{:style="color: #337ab7"}
