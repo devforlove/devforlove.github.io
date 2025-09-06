@@ -1,16 +1,16 @@
 - layout: left
-  name: Dash Server
+  name: Haru 커플 메시징 서비스 Server
   job_title: MSA 게시판 
-  dates: 2023.06 ~ 2023.12
-  link: https://github.com/devforlove/msa-dashboard
+  dates: 2025.04 ~ 2025.08
+  link: https://github.com/devforlove/haru
   quote: >
-    MSA를 적용한 게시판 서버 (1인 개발)
+    MSA를 적용한 커플 메시지 서비스 (1인 개발)
   description: | # this will include new lines to allow paragraphs
-    * 헥사고날 아키텍처 적용 
-    * DDD 적용 
-    * [CQRS 이벤트 기반 아키텍처 적용](https://wooktech.tistory.com/116){:target="_blank"}{:style="color: #337ab7"}
-    * [ArgoCD, 쿠버네티스를 이용한 CI/CD 프로세스 구축](https://wooktech.tistory.com/search/argoCD){:target="_blank"}{:style="color: #337ab7"}
-
+    * 멀티 모듈을 통해 모듈간의 계층적 구조를 이용하여 코드 재사용성 극대화
+    * 의존성 격리를 위한 Hexagonal Architecture를 적용하여 변화에 유연한 시스템 설계
+    * [서비스 간 결합도를 낮추고 확장성을 높이기 위해 EDA와 CQRS 패턴 도입하여 읽기/쓰기 분리와 성능 최적화](https://wooktech.tistory.com/116){:target="_blank"}{:style="color: #337ab7"}
+    * 안정적인 통합 테스트 환경이 필요해 TestContainers를 적용하여 실제 환경과 유사한 검증.
+    * 멀티 모듈 배포 프로세스 자동화 (Github Actions + S3) 및 Docker Compose를 이용한 로컬 환경 구축
 - layout: left
   name: DDC API Server 
   job_title: API 서버 
