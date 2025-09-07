@@ -1,11 +1,11 @@
 - layout: left
-  company: 더블다운인터액티브
-  link: https://www.doubledowninteractive.co.kr
+  company: 더블유게임즈
+  link: https://www.doubleugames.com/main/main.html
   job_title: 서버 서비스개발팀
   dates: 2022.11 ~ 2025.08
   quote: >
     1000만 사용자를 가진 북미 지역 3위 카지노 게임 개발 및 유지보수 
-  description: | # this will include new lines to allow paragraphs
+  description: |
     * 레거시 개편 
     * 테스트 코드 작성 및 방향성 제안 
     * SQL 튜닝 및 데이터 모델링 
@@ -18,7 +18,7 @@
   dates: 2021.11 ~ 2022.11
   quote: >
     시설관리를 디지털화 해주는 솔루션 시스템 설계 및 개발 
-  description: | # this will include new lines to allow paragraphs
+  description: |
     * 전반적인 성능 개선 
     * 신규 서비스 설계 및 개발 
     * 배포 자동화 구축 

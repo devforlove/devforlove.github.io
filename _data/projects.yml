@@ -9,7 +9,7 @@
     * 멀티 모듈을 통해 모듈간의 계층적 구조를 이용하여 코드 재사용성 극대화
     * 의존성 격리를 위한 Hexagonal Architecture를 적용하여 변화에 유연한 시스템 설계
     * [서비스 간 결합도를 낮추고 확장성을 높이기 위해 EDA와 CQRS 패턴 도입하여 읽기/쓰기 분리와 성능 최적화](https://wooktech.tistory.com/116){:target="_blank"}{:style="color: #337ab7"}
-    * 안정적인 통합 테스트 환경이 필요해 TestContainers를 적용하여 실제 환경과 유사한 검증.
+    * TestContainers를 적용하여 실제 환경과 유사한 통합 테스트 환경 구현 
     * 멀티 모듈 배포 프로세스 자동화 (Github Actions + S3) 및 Docker Compose를 이용한 로컬 환경 구축
 
 - layout: left
@@ -19,24 +19,23 @@
   quote: >
     프론트의 조회 요청에 대한 전반을 담당
   description: | 
-    * 다수의 I/O 요청을 효율적으로 처리하기 위해, Spring WebFlux와 코루틴을 적용하여 전체 응답 속도 개선 (응답 시간)
-    * 논블로킹 구조에서도 로그 추적성을 유지하기 위해, MDCContext를 적용하고 모니터링 툴(zipkin)과 연동을 하여 장애 원인 파악 및 운영 효율성 강화
+    * 다수의 I/O 요청을 효율적으로 처리하기 위해 Spring WebFlux와 코루틴을 적용하여 전체 응답 속도 개선 (응답 시간)
+    * [논블로킹 구조에서도 로그 추적성을 유지하기 위해, MDCContext를 적용하고 모니터링 툴(zipkin)과 연동을 하여 장애 원인 파악 및 운영 효율성 강화] (https://wooktech.tistory.com/129){:target="_blank"}{:style="color: #337ab7"}
     * 장애가 전체 시스템으로 확산되는 것을 방지하기 위해, Fallback 기능과 CircuitBreaker 패턴 적용하여 서비스 안정성 확보
-    * StepVerifier를 이용하여 WebFlux 테스트 코드를 작성한 테스트 환경
     * WireMock을 이용하여 외부 API 시스템 연동 테스트 환경 구축 및 외부 API 연동 테스트
 
 - layout: left
   name: DDC API Server 
   job_title: API 서버 
-  dates: 2022.11 ~ 2024.10
+  dates: 2022.11 ~ 2025.09
   quote: >
     대량의 사용자 요청을 처리하는 REST API 서버 
   description: |
-    * 푸시 시스템 MSA 전환 및 CQRS 적용으로 하루 30만건 메세지 대응
-    * 클린 아키텍처를 이용한 전체 시스템 리펙토링 작업
-    * 개발환경 및 릴리스 환경에서 MDC와 Interceptor를 이용하여 JPA SQL 진입점 정보 추가
-    * [테스트 코드 개선 사항 및 안티 패턴 팀에 전파 (Test Coverage 90%)](https://wooktech.tistory.com/96){:target="_blank"}{:style="color: #337ab7"}
-    * Mysql 인덱스 및 쿼리 튜닝을 통한 다수의 쿼리 성능 최적화 작업
+    * 푸시 시스템을 MSA로 전환하고 CQRS를 적용 하루 30만 건 메시지 안정적 대응
+    * 복잡해진 코드 구조를 개선하기 위해, 클린 아키텍처 기반으로 전체 시스템 리팩터링하여 유지보수성과 확장성 향상
+    * 개발환경에서 SQL 추적성을 강화하기 위해, MDC와 Interceptor를 적용하여 진입점 정보를 로깅하여  개발 중 성능 문제 원인 신속 파악.
+    * [팀 전체 품질 수준 향상을 위해, 테스트 코드 개선 사항을 공유하고 커버리지를 90%까지 달성하여 안티 패턴 제거 및 품질 표준 정착 (Test Coverage 90%)](https://wooktech.tistory.com/96){:target="_blank"}{:style="color: #337ab7"}
+    * 느린 쿼리로 인한 성능 저하를 해결하기 위해, MySQL 인덱스 및 쿼리 튜닝하여 다수의 주요 쿼리 성능 최적
     * [Spring Boot 테스트 코드 최적화](https://wooktech.tistory.com/86){:target="_blank"}{:style="color: #337ab7"}
     * [Cache 정합성 이슈 해결](https://wooktech.tistory.com/99){:target="_blank"}{:style="color: #337ab7"}    
 
@@ -46,21 +45,20 @@
   dates: 2022.11 ~ 2024.10
   quote: >
     배치성 작업을 처리하는 서버 
-  description: | # this will include new lines to allow paragraphs
-    * Redis 파이프라인과 Spring Batch를 이용한 집계 작업 설계 및 구축 
-    * [QueryDSL을 이용한 ItemReader 조회 성능 최적화 (execution 15m to 5m 35s)](https://wooktech.tistory.com/71){:target="_blank"}{:style="color: #337ab7"}
-    * [ItemWriter 쓰기 성능 최적화](https://wooktech.tistory.com/100){:target="_blank"}{:style="color: #337ab7"}
-    * [Jenkins를 이용한 스프링 배치 실행 환경 구축](https://wooktech.tistory.com/83){:target="_blank"}{:style="color: #337ab7"}
-    * Batch 어플리케이션 CI/CD 배포 파이프라인 구축 
-    * Batch 테스트 코드 커버리지 (Test Coverage 90%)
+  description: | 
+    * 대규모 데이터 집계 성능 저하를 해결하기 위해, Redis 파이프라인과 Spring Batch 기반으로 설계하여 안정적이고 빠른 집계 처리 
+    * [조회 성능 저하 문제를 해결하기 위해 QueryDSL 기반 ItemReader 최적화 (처리 시간 15분 → 5분 35초 단축) (execution 15m to 5m 35s)](https://wooktech.tistory.com/71){:target="_blank"}{:style="color: #337ab7"}
+    * [쓰기 병목 문제를 해소하기 위해, ItemWriter 성능 최적화 전체 배치 처리 속도 향상](https://wooktech.tistory.com/100){:target="_blank"}{:style="color: #337ab7"}
+    * [수동 배포의 비효율을 줄이기 위해 Jenkins 기반 CI/CD 파이프라인 구축하여 자동화된 안정적 배포 환경 확보](https://wooktech.tistory.com/83){:target="_blank"}{:style="color: #337ab7"}
+    * 품질을 강화하기 위해, 배치 테스트 코드 작성 및 커버리지 90% 달성하여 배포 전 신뢰성 확보 (Test Coverage 90%)
 
 - layout: left
   name: HADA Server 
   dates: 2021.11 ~ 2022.11
   quote: >
     기존 종이로 하던 시설 점검을 QR 기반으로 디지털화 해주는 솔루션
-  description: | # this will include new lines to allow paragraphs
-    * [객체지향 생활 체조원칙 적용](https://wooktech.tistory.com/39){:target="_blank"}{:style="color: #337ab7"}
-    * [HikariCP 커넥션 누수 해결](https://wooktech.tistory.com/45){:target="_blank"}{:style="color: #337ab7"}
-    * [전반적인 JPA, QueryDSL의  성능 개선  (execution: 3.792s to 371ms)](https://wooktech.tistory.com/12){:target="_blank"}{:style="color: #337ab7"}
-    * Jenkins 및 Code pipeline을 이용한 배포 자동화 구축
+  description: | 
+    * [코드 품질 저하 문제를 개선하기 위해 객체지향 생활 체조 원칙을 적용하여 유지보수성과 가독성 향상](https://wooktech.tistory.com/39){:target="_blank"}{:style="color: #337ab7"}
+    * [커넥션 누수로 인한 장애를 해결하기 위해 HikariCP 커넥션 누수 문제를 추적·해결하여 서비스 안정성 확보](https://wooktech.tistory.com/45){:target="_blank"}{:style="color: #337ab7"}
+    * [느린 JPA·QueryDSL 성능 문제를 해결하기 위해, 쿼리 최적화와 튜닝 적용 (execution: 3.792s to 371ms)](https://wooktech.tistory.com/12){:target="_blank"}{:style="color: #337ab7"}
+    * 배포 효율성을 높이기 위해 Jenkins 및 CodePipeline을 이용한 배포 자동화 구축하여 안정적이고 반복 가능한 배포 환경 확보
